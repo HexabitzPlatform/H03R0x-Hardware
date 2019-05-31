@@ -3,7 +3,7 @@
 <eagle version="9.3.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -1226,6 +1226,19 @@ design rules under a new name.</description>
 <wire x1="26.3602" y1="48.9302" x2="42.8802" y2="48.9302" width="0.3048" layer="1"/>
 <wire x1="26.3602" y1="20.3102" x2="42.8802" y2="20.3102" width="0.3048" layer="1"/>
 <wire x1="42.8802" y1="20.3102" x2="51.1402" y2="34.6202" width="0.3048" layer="1"/>
+<contactref element="L1" pad="2"/>
+<contactref element="C2" pad="1"/>
+<contactref element="U1" pad="4"/>
+<wire x1="24.765" y1="38.71" x2="24.765" y2="39.726871875" width="1.016" layer="16"/>
+<wire x1="24.765" y1="39.726871875" x2="26.330909375" y2="41.29278125" width="1.016" layer="16"/>
+<via x="26.330909375" y="41.29278125" extent="1-16" drill="0.35"/>
+<wire x1="26.330909375" y1="41.29278125" x2="26.348690625" y2="41.275" width="0.3048" layer="1"/>
+<wire x1="26.348690625" y1="41.275" x2="29.567" y2="41.275" width="1.016" layer="1"/>
+<wire x1="31.69158125" y1="34.946590625" x2="32.8422" y2="33.795971875" width="1.016" layer="16"/>
+<wire x1="31.69158125" y1="34.946590625" x2="26.615390625" y2="34.946590625" width="1.016" layer="16"/>
+<wire x1="24.765" y1="36.79698125" x2="24.765" y2="38.71" width="1.016" layer="16"/>
+<wire x1="26.615390625" y1="34.946590625" x2="24.765" y2="36.79698125" width="1.016" layer="16"/>
+<wire x1="32.8422" y1="33.795971875" x2="32.8422" y2="32.1056" width="1.016" layer="16"/>
 </signal>
 <signal name="N$1">
 <contactref element="P2" pad="1"/>
@@ -1266,21 +1279,6 @@ design rules under a new name.</description>
 <wire x1="24.77261875" y1="35.779709375" x2="24.767909375" y2="35.775" width="0.3048" layer="1"/>
 <wire x1="24.767909375" y1="35.775" x2="23.114" y2="35.775" width="1.016" layer="1"/>
 </signal>
-<signal name="OUT">
-<contactref element="L1" pad="2"/>
-<contactref element="C2" pad="1"/>
-<contactref element="U1" pad="4"/>
-<wire x1="24.765" y1="38.71" x2="24.765" y2="39.726871875" width="1.016" layer="16"/>
-<wire x1="24.765" y1="39.726871875" x2="26.330909375" y2="41.29278125" width="1.016" layer="16"/>
-<via x="26.330909375" y="41.29278125" extent="1-16" drill="0.35"/>
-<wire x1="26.330909375" y1="41.29278125" x2="26.348690625" y2="41.275" width="0.3048" layer="1"/>
-<wire x1="26.348690625" y1="41.275" x2="29.567" y2="41.275" width="1.016" layer="1"/>
-<wire x1="31.69158125" y1="34.946590625" x2="32.8422" y2="33.795971875" width="1.016" layer="16"/>
-<wire x1="31.69158125" y1="34.946590625" x2="26.615390625" y2="34.946590625" width="1.016" layer="16"/>
-<wire x1="24.765" y1="36.79698125" x2="24.765" y2="38.71" width="1.016" layer="16"/>
-<wire x1="26.615390625" y1="34.946590625" x2="24.765" y2="36.79698125" width="1.016" layer="16"/>
-<wire x1="32.8422" y1="33.795971875" x2="32.8422" y2="32.1056" width="1.016" layer="16"/>
-</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
@@ -1314,8 +1312,6 @@ design rules under a new name.</description>
 <approved hash="4,16,f8790e9421771b3e"/>
 <approved hash="4,16,c8ccaacd3941d417"/>
 <approved hash="4,16,b74b077da49c13bb"/>
-<approved hash="23,16,eee066866675ee13"/>
-<approved hash="23,16,d536fac24c8b6b2b"/>
 </errors>
 </board>
 </drawing>

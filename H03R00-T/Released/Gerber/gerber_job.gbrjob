@@ -1,11 +1,11 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2019-02-05T12:55:08Z",
+        "CreationDate": "2019-05-31T11:23:16Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
-            "Version": "9.2.2"
+            "Version": "9.3.0"
         },
         "Part": "Single"
     },
@@ -13,7 +13,7 @@
         "BoardThickness": 1.57,
         "LayerNumber": 2,
         "Name": {
-            "ProjectId": "H03R00"
+            "ProjectId": "H03R00-T"
         },
         "Owner": "Asaad Kaadan <asaad@hexabitz.com>",
         "Size": {
