@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -3387,10 +3387,10 @@ Source: DCJ0202.pdf</description>
 <text x="215.7222" y="14.7066" size="1.9304" layer="100" font="vector">Revision</text>
 <text x="215.9" y="5.3848" size="1.9304" layer="100" font="vector">Sheet   of</text>
 <text x="199.4662" y="19.6342" size="1.9304" layer="100" font="vector">Title</text>
-<text x="180.9242" y="19.6342" size="1.9304" layer="102" font="vector">H03R00-J</text>
+<text x="180.9242" y="19.6342" size="1.9304" layer="102" font="vector">H03R0-J</text>
 <text x="192.0078" y="11.7914" size="1.6764" layer="101" font="vector" align="center">3.3V/1A DC-DC Buck Power Supply 
 w/ Barrel Jack</text>
-<text x="206.3242" y="19.6342" size="1.9304" layer="101" font="vector">H03R0_Frontend</text>
+<text x="206.3242" y="19.6342" size="1.9304" layer="101" font="vector">H03R0-J_Frontend</text>
 <wire x1="168.91" y1="3.81" x2="168.91" y2="8.128" width="0.1524" layer="205"/>
 <wire x1="168.91" y1="8.128" x2="168.91" y2="18.288" width="0.1524" layer="205"/>
 <wire x1="168.91" y1="18.288" x2="168.91" y2="22.86" width="0.1524" layer="205"/>
@@ -3411,7 +3411,6 @@ w/ Barrel Jack</text>
 <wire x1="168.91" y1="8.128" x2="214.63" y2="8.128" width="0.1524" layer="205"/>
 <wire x1="231.14" y1="18.288" x2="231.14" y2="22.86" width="0.1524" layer="205"/>
 <text x="242.6462" y="6.1722" size="1.9304" layer="100" font="vector">www.hexabitz.com</text>
-<text x="180.4178" y="4.9414" size="1.9304" layer="101" font="vector">Anas Kaadan</text>
 <text x="20.32" y="198.12" size="1.778" layer="150">VDD=3.3 Volts</text>
 <text x="20.32" y="198.12" size="1.778" layer="150">VDD=3.3 Volts</text>
 <text x="20.32" y="194.31" size="1.778" layer="150">VDD=5-40 Volts</text>
