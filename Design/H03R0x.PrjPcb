@@ -100,17 +100,34 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MRABEGTG
 
+[Document4]
+DocumentPath=D:\Dowloads-D\Hexabitz Altium Library.IntLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [Parameter1]
-Name=revision
-Value=1
+Name=Module_Description
+Value=DC/DC Converter
 
 [Parameter2]
 Name=Module_Name
 Value=H03R0x
 
 [Parameter3]
-Name=Module_Description
-Value=DC/DC Converter
+Name=revision
+Value=1
 
 [Configuration1]
 Name=Sources
