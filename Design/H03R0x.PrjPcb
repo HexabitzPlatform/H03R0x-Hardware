@@ -117,6 +117,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for H03R0x\Design Rule Check - H03R0x.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=Module_Description
 Value=DC/DC Converter
