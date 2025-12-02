@@ -1,0 +1,20 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of Project [H03R0x.PrjPcb]
+   Generated File[H03R0x_Legend_Top.gbr]
+   Generated File[H03R0x_Paste_Top.gbr]
+   Generated File[H03R0x_Soldermask_Top.gbr]
+   Generated File[H03R0x_Copper_Signal_Top.gbr]
+   Generated File[H03R0x_Copper_Signal_Bot.gbr]
+   Generated File[H03R0x_Soldermask_Bot.gbr]
+   Generated File[H03R0x_Paste_Bot.gbr]
+   Generated File[H03R0x_Legend_Bot.gbr]
+   Generated File[H03R0x_Profile.gbr]
+   Generated File[H03R0x.EXTREP]
+   Generated File[H03R0x.REP]
+
+
+Files Generated   : 11
+Documents Printed : 0
+
+Finished Output Generation At 8:13:33 AM On 12/2/2025
